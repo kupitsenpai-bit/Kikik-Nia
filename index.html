@@ -1,31 +1,33 @@
 <!DOCTYPE html>
 <html lang="id">
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kikik & Nia</title>
 
-<title>Genky & Ari Wedding</title>
+    <link rel="stylesheet" href="style.css">
 
-<link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-
-<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
-
-<link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
 
 </head>
 
 <body>
 
-<div id="loading">
+<!-- ================= COVER ================= -->
 
-<div class="loader">
+<section class="cover">
 
-<h2>The Wedding Of</h2>
+<div class="overlay">
 
-<h1>Genky & Ari</h1>
+<h3>The Wedding Of</h3>
+
+<h1>Kikik & Nia</h1>
+
+<p>Sabtu, 18 Oktober 2025</p>
 
 <button id="openInvitation">
 Buka Undangan
@@ -33,61 +35,203 @@ Buka Undangan
 
 </div>
 
-</div>
+</section>
 
-<audio id="music" loop>
+<!-- ================= HERO ================= -->
 
-<source src="assets/music/music.mp3" type="audio/mpeg">
+<section class="hero">
 
-</audio><section class="hero">
+<h2>Kikik & Nia</h2>
 
-<div class="overlay">
+<p>
+Dengan memohon rahmat Tuhan Yang Maha Esa,
+kami mengundang Bapak/Ibu/Saudara/i
+untuk hadir pada acara pernikahan kami.
+</p>
 
-<h4>The Wedding Of</h4>
+</section>
 
-<h1>Genky & Ari</h1>
+<!-- ================= FOTO ================= -->
 
-<p>20 Agustus 2026</p>
+<section class="gallery">
 
-</div>
+<img src="images/cover.jpg">
 
-</section><section class="couple">
+<img src="images/1.jpg">
 
-<h2>Mempelai</h2>
+<img src="images/2.jpg">
+
+<img src="images/3.jpg">
+
+<img src="images/4.jpg">
+
+<img src="images/5.jpg">
+
+</section>
+
+<!-- ================= MEMPELAI ================= -->
+
+<section class="couple">
 
 <div class="card">
 
-<img src="assets/images/pria.jpg">
-
-<h3>I Wayan Gede Genky Adi Dharma</h3>
+<h2>Kikik</h2>
 
 <p>
-Putra pertama dari<br>
-Alm. I Made Sudarsana<br>
-& Ni Made Surati
+Putra dari
+</p>
+
+<p>
+Bapak ............
+<br>
+&
+<br>
+Ibu ............
 </p>
 
 </div>
 
 <div class="card">
 
-<img src="assets/images/wanita.jpg">
-
-<h3>Ni Made Ari Kurnia Sari</h3>
+<h2>Nia</h2>
 
 <p>
+Putri dari
+</p>
 
-Putri kedua dari<br>
-
-Ida Pandita Mpu Dharma Reka Jaya Putra<br>
-
-& Ida Pandita Mpu Istri Dharma Padmi
-
+<p>
+Bapak ............
+<br>
+&
+<br>
+Ibu ............
 </p>
 
 </div>
 
-</section><script src="script.js"></script>
+</section>
+
+<!-- ================= COUNTDOWN ================= -->
+
+<section class="countdown">
+
+<h2>Menuju Hari Bahagia</h2>
+
+<div id="timer">
+
+<div>
+
+<h3 id="days">0</h3>
+
+<p>Hari</p>
+
+</div>
+
+<div>
+
+<h3 id="hours">0</h3>
+
+<p>Jam</p>
+
+</div>
+
+<div>
+
+<h3 id="minutes">0</h3>
+
+<p>Menit</p>
+
+</div>
+
+<div>
+
+<h3 id="seconds">0</h3>
+
+<p>Detik</p>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- ================= ACARA ================= -->
+
+<section class="event">
+
+<h2>Resepsi</h2>
+
+<h3>
+Sabtu,
+18 Oktober 2025
+</h3>
+
+<p>
+
+09.00 WIB - Selesai
+
+</p>
+
+<p>
+
+Alamat Acara
+<br>
+(Isi alamat lengkap di sini)
+
+</p>
+
+</section>
+
+<!-- ================= GALERI ================= -->
+
+<section class="photo-grid">
+
+<img src="images/1.jpg">
+
+<img src="images/2.jpg">
+
+<img src="images/3.jpg">
+
+<img src="images/4.jpg">
+
+<img src="images/5.jpg">
+
+</section>
+
+<!-- ================= PENUTUP ================= -->
+
+<section class="closing">
+
+<h2>Terima Kasih</h2>
+
+<p>
+
+Merupakan suatu kehormatan bagi kami
+apabila Bapak/Ibu/Saudara/i
+berkenan hadir dan memberikan doa restu.
+
+</p>
+
+<h3>
+
+Kikik & Nia
+
+</h3>
+
+</section>
+
+<audio
+id="music"
+autoplay
+loop>
+
+<source
+src="music.mp3"
+type="audio/mpeg">
+
+</audio>
+
+<script src="script.js"></script>
 
 </body>
 </html>
